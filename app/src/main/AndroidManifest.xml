@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:allowBackup="true"
@@ -14,10 +15,49 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Layout">
         <activity
+            android:name=".toggle26"
+            android:exported="false" />
+        <activity
+            android:name=".calculator27"
+            android:exported="false" />
+        <activity
+            android:name=".rating24"
+            android:exported="false" />
+        <activity
+            android:name=".progress23"
+            android:exported="false" />
+        <activity
+            android:name=".database2"
+            android:exported="false" />
+        <activity
+            android:name=".database3"
+            android:exported="false" />
+        <activity
+            android:name=".database1"
+            android:exported="false" />
+        <activity
+            android:name=".FormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ratingbar"
+            android:exported="false" />
+        <activity
+            android:name=".notification12"
+            android:exported="false" />
+        <activity
+            android:name=".progressbar"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity9b"
             android:exported="false" />
         <activity
-            android:name=".MainActivity7a"
+            android:name=".programactivity1"
             android:exported="false" />
         <activity
             android:name=".FragmentActivity"
@@ -26,16 +66,16 @@
             android:name=".MainActivity7b"
             android:exported="false" />
         <activity
-            android:name=".programactivity1"
+            android:name=".seekbar25"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".FormActivity"
+            android:name=".MainActivity7a"
             android:exported="false" />
         <activity
-            android:name=".MainActivity9"
+            android:name=".ImplicitIntentActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +84,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ImplicitIntentActivity"
+            android:name=".fileop13"
             android:exported="false" />
         <activity
             android:name=".ResumeActivity"

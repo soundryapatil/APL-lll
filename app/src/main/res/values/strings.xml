@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Layout</string>
+    <string name="app_name">FileHandlingDemo</string>
+    <string name="enter_text">Enter text here</string>
+    <string name="write">Write</string>
+    <string name="read">Read</string>
+    <string name="output_text">Output will appear here</string>
 </resources>
