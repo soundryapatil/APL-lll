@@ -1,0 +1,42 @@
+package com.example.layout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.SeekBar;
+import android.widget.TextView;
+
+public class seekbar25 extends AppCompatActivity {
+
+    SeekBar seekBar;
+    TextView textView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_seekbar25);
+
+        seekBar = findViewById(R.id.seekBar);
+        textView = findViewById(R.id.textView);
+
+        seekBar.setOnSeekBarChangeListener(
+                new SeekBar.OnSeekBarChangeListener() {
+
+                    @Override
+                    public void onProgressChanged
+                            (SeekBar seekBar, int progress, boolean fromUser) {
+
+                        textView.setTextSize(progress);
+                    }
+
+                    @Override
+                    public void onStartTrackingTouch(SeekBar seekBar) {
+
+                    }
+
+                    @Override
+                    public void onStopTrackingTouch(SeekBar seekBar) {
+
+                    }
+                });
+    }
+}
